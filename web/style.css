@@ -1,0 +1,43 @@
+.col1 {
+    width: 20%;
+    white-space: pre;
+    text-overflow: ellipsis;
+}
+.col2 {
+    width: 50%;
+    white-space: pre;
+    text-overflow: ellipsis;
+}
+.col3 {
+    width: 10%;
+    text-overflow: ellipsis;
+}
+.col4 {
+    font-weight: bold;
+    text-decoration: #222222;
+    background: #5bc0de;
+    text-overflow: ellipsis;
+}
+.col5 {
+    width: 5%;
+    text-overflow: ellipsis;
+}
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
